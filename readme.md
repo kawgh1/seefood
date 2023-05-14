@@ -5,8 +5,7 @@
 ## Image Recognition App
 - Uses CoreML, Vision and allows user to either take a photo from library or use the camera to take a picture, run it through the Inception v3 model and the app will tell the user what it thinks the image is of with a Confidence Score as a percent
 
-
-
+### Main Code
 
  func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
